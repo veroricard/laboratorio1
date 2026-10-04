@@ -63,3 +63,22 @@ print(convertir_metros(2))
 print(convertir_metros(2, "mm"))
 print(convertir_metros_lambda(2))
 print(convertir_metros_lambda(2, "mm"))
+
+
+##########################################################
+# Ejercicio 5 — Área de un rectángulo (si no hay altura, es un cuadrado)
+
+# Función nombrada
+def area_rectangulo(base, altura=None):
+    if altura is None:
+        altura = base
+    return base * altura
+
+# Función anónima
+area_rectangulo_lambda = lambda base, altura=None: base * (base if altura is None else altura)
+
+print("Ejercicio 5")
+print(area_rectangulo(4, 3))
+print(area_rectangulo(4))
+print(area_rectangulo_lambda(4, 3))
+print(area_rectangulo_lambda(4))
