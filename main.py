@@ -82,3 +82,14 @@ print("Resta:", resta)
 print("Multiplicación:", multiplicacion)
 print("División:", division)
 print("Resto:", resto)
+
+
+##########################################################
+# Ejercicio 4 — Mayor de edad
+edad = input("Ingrese su edad: ")
+edad = int(edad)
+
+if edad >= 18:
+    print("Es mayor de edad")
+else:
+    print("Es menor de edad")
