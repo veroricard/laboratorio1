@@ -61,3 +61,24 @@ print(altura)
 print(type(nombre))
 print(type(edad))
 print(type(altura))
+
+
+##########################################################
+# Ejercicio 3 — Operaciones matemáticas
+num1 = input("Ingrese el primer número: ")
+num2 = input("Ingrese el segundo número: ")
+
+num1 = float(num1)
+num2 = float(num2)
+
+suma = num1 + num2
+resta = num1 - num2
+multiplicacion = num1 * num2
+division = num1 / num2
+resto = num1 % num2
+
+print("Suma:", suma)
+print("Resta:", resta)
+print("Multiplicación:", multiplicacion)
+print("División:", division)
+print("Resto:", resto)
