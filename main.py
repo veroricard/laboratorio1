@@ -135,3 +135,12 @@ for nota in notas:
         print(nota, "- Aprobada")
     else:
         print(nota, "- Desaprobada")
+
+
+#################################################################
+# Ejercicio 9 — Contar hasta un número
+numero = input("Ingrese un número: ")
+numero = int(numero)
+
+for i in range(1, numero + 1):
+    print(i)
