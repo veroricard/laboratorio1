@@ -106,3 +106,13 @@ elif numero < 0:
     print("El número es negativo")
 else:
     print("El número es cero")
+
+
+##########################################################
+# Ejercicio 6 — Lista de números
+numeros = [10, 25, 8, 40, 15, 30]
+
+print(numeros)
+print(numeros[0])
+print(numeros[-1])
+print(len(numeros))
