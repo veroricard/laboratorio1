@@ -25,3 +25,21 @@ dato4 = pedir_ciudad()
 
 print("resultados")
 print(f"nombre:{dato1},edad: {dato2},altura:{dato3},ciudad:{dato4}")
+
+
+##############################################################################
+# Ejercicio 1 — Datos personales
+nombre = "Ana"
+edad = 28
+ciudad = "Cipolletti"
+altura = 1.65
+
+print(nombre)
+print(edad)
+print(ciudad)
+print(altura)
+
+print(type(nombre))
+print(type(edad))
+print(type(ciudad))
+print(type(altura))
