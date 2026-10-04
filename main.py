@@ -144,3 +144,18 @@ numero = int(numero)
 
 for i in range(1, numero + 1):
     print(i)
+
+
+##################################################################
+# Ejercicio 10 — Alumnos y notas
+alumnos = ["Ana", "Pedro", "Laura", "Juan"]
+notas = [8, 5, 9, 4]
+
+for i in range(len(alumnos)):
+    nombre = alumnos[i]
+    nota = notas[i]
+
+    if nota >= 6:
+        print(nombre, "-", nota, "- Aprobado")
+    else:
+        print(nombre, "-", nota, "- Desaprobado")
