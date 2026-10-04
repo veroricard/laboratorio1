@@ -124,3 +124,14 @@ nombres = ["Ana", "Pedro", "Laura", "Juan", "Sofía"]
 
 for nombre in nombres:
     print(nombre)
+
+
+#############################################################
+# Ejercicio 8 — Notas aprobadas y desaprobadas
+notas = [8, 4, 6, 10, 3, 7, 5]
+
+for nota in notas:
+    if nota >= 6:
+        print(nota, "- Aprobada")
+    else:
+        print(nota, "- Desaprobada")
