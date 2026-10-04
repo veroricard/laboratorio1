@@ -45,3 +45,21 @@ print(precio_final(1000))
 print(precio_final(1000, 10.5))
 print(precio_final_lambda(1000))
 print(precio_final_lambda(1000, 10.5))
+
+
+##########################################################
+# Ejercicio 4 — Convertir metros a otra unidad (por defecto centímetros)
+
+# Función nombrada
+def convertir_metros(metros, unidad="cm"):
+    factores = {"cm": 100, "mm": 1000}
+    return metros * factores[unidad]
+
+# Función anónima
+convertir_metros_lambda = lambda metros, unidad="cm": metros * {"cm": 100, "mm": 1000}[unidad]
+
+print("Ejercicio 4")
+print(convertir_metros(2))
+print(convertir_metros(2, "mm"))
+print(convertir_metros_lambda(2))
+print(convertir_metros_lambda(2, "mm"))
