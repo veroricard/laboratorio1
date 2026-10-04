@@ -93,3 +93,16 @@ if edad >= 18:
     print("Es mayor de edad")
 else:
     print("Es menor de edad")
+
+
+##########################################################
+# Ejercicio 5 — Número positivo, negativo o cero
+numero = input("Ingrese un número: ")
+numero = float(numero)
+
+if numero > 0:
+    print("El número es positivo")
+elif numero < 0:
+    print("El número es negativo")
+else:
+    print("El número es cero")
