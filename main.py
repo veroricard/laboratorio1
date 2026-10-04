@@ -43,3 +43,21 @@ print(type(nombre))
 print(type(edad))
 print(type(ciudad))
 print(type(altura))
+
+
+##########################################################
+# Ejercicio 2 — Conversión de tipos
+nombre = input("Ingrese su nombre: ")
+edad = input("Ingrese su edad: ")
+altura = input("Ingrese su altura: ")
+
+edad = int(edad)
+altura = float(altura)
+
+print(nombre)
+print(edad)
+print(altura)
+
+print(type(nombre))
+print(type(edad))
+print(type(altura))
