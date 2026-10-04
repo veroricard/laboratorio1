@@ -24,12 +24,14 @@ Conjunto de ejercicios introductorios de Python (variables, tipos de datos, entr
 laboratorio1/
 ├── .gitignore
 ├── README.md
-└── main.py
+├── main.py
+└── funciones.py
 ```
 
 | Archivo | Función |
 |---|---|
 | `main.py` | Contiene los ejercicios 1 al 10 |
+| `funciones.py` | TP de funciones: versión nombrada y anónima de 5 consignas |
 | `.gitignore` | Evita versionar `__pycache__/`, `.env` y `*.log` |
 | `README.md` | Documentación del proyecto |
 
