@@ -116,3 +116,11 @@ print(numeros)
 print(numeros[0])
 print(numeros[-1])
 print(len(numeros))
+
+
+###########################################################
+# Ejercicio 7 — Recorrer una lista de nombres
+nombres = ["Ana", "Pedro", "Laura", "Juan", "Sofía"]
+
+for nombre in nombres:
+    print(nombre)
